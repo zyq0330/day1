@@ -7,7 +7,7 @@ using namespace std;
 int main() {
   ifstream file("input.txt");
     if (!file.is_open()) {
-        cerr<<"err，notfind input.txt"<<endl;
+        cerr<<"error，notfind input.txt"<<endl;
         return 1;
     }
     string line;
