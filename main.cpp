@@ -21,7 +21,7 @@ int main() {
         }
     }
     file.close();
-    cout<<"words rate:"<<endl;
+    cout<<"words rate:"<<"yes"<<endl;
     for (const auto &pair:wordCount) {
         cout<<pair.first<<":"<<pair.second<<endl;
     }
